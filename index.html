@@ -500,9 +500,9 @@
             }
             function renderToolbox(){
                 let html = `<div class="container"><h2><i class="fas fa-toolbox"></i> 工具箱 · 按问题查策略</h2>
-                           <div class="subhead" style="margin-bottom:1rem;">基于五维安全感知体系，每个策略卡片对应具体问题的解决方案。点击卡片展开详情。</div>
+                           <div class="subhead" style="margin-bottom:1rem;"> 按居民不安感排序：交通 > 活动 > 防灾 > 社交 > 防卫 · 点击策略卡片查看应用场景 </div>
                            <div class="dimension-order" id="toolboxRoot"></div>
-                           <div class="tooltip-note">💡 每个策略卡片下方可展开问题引入与示意图占位区。</div></div>`;
+                           <div class="tooltip-note"> 每个策略卡片下方可展开问题引入与示意图占位区。</div></div>`;
                 document.getElementById('app').innerHTML = html;
                 const root = document.getElementById('toolboxRoot');
                 root.innerHTML = '';
